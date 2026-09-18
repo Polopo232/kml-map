@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>LeafletJS Kaart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
 </head>
 <body>
-$END$
+<nav>
+  <a href="index.html">Avaleht</a>
+  <a href="leaflet.html" class="active">LeafletJS Kaart</a>
+  <a href="openlayers.html">OpenLayers Kaart</a>
+  <a href="comparison.html">Võrdlus</a>
+</nav>
+
+<div class="content">
+  <h1>LeafletJS Kaart</h1>
+  <div id="map"></div>
+</div>
+
+<script>
+  const map = L.map('map').setView([58.5953, 25.0136], 7);
+  
+  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  }).addTo(map);
+  
+  const kmlLayer = omnivore.kml('kooli-koju.kml').on('ready', function() {
+            map.fitBounds(kmlLayer.getBounds());})
+          .addTo(map);
+
+  L.control.scale({ imperial: false }).addTo(map);
+</script>
 </body>
 </html>

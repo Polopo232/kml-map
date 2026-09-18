@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenLayers Kaart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+  <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
 </head>
 <body>
-$END$
+<nav>
+  <a href="index.html">Avaleht</a>
+  <a href="leaflet.html">LeafletJS Kaart</a>
+  <a href="openlayers.html" class="active">OpenLayers Kaart</a>
+  <a href="comparison.html">Võrdlus</a>
+</nav>
+
+<div class="content">
+  <h1>OpenLayers Kaart</h1>
+
+  <div id="map"></div>
+</div>
+
+<script>
+  const map = new ol.Map({
+    target: 'map',
+    layers: [
+      new ol.layer.Tile({ source: new ol.source.OSM() }),
+      new ol.layer.Vector({ source: new ol.source.Vector({ url: 'kooli-koju.kml', format: new ol.format.KML() }) })
+    ],
+    view: new ol.View({ center: ol.proj.fromLonLat([25.0136, 58.5953]), zoom: 7 })
+  });
+</script>
 </body>
 </html>
