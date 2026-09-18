@@ -23,13 +23,9 @@
 
 <script>
   const map = L.map('map').setView([58.5953, 25.0136], 7);
-  
-  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  }).addTo(map);
-  
-  const kmlLayer = omnivore.kml('kooli-koju.kml').on('ready', function() {
-            map.fitBounds(kmlLayer.getBounds());})
-          .addTo(map);
+  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
+  const kmlLayer = omnivore.kml('kooli-koju.kml').on('ready', function() {map.fitBounds(kmlLayer.getBounds());})
+          .addTo(map); //vahetada kool-koju oma klm-faili vastu
 
   L.control.scale({ imperial: false }).addTo(map);
 </script>
