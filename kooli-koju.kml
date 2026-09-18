@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="19Wwql7rChXlcry74edHWHMM2Y1JwGV23">
+	<name>kooli-koju</name>
+	<Schema name="__managed_schema" id="__managed_schema">
+		<SimpleField type="string" name="str:bmltaQ==">
+			<displayName>nimi</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="str:a2lyamVsZHVz">
+			<displayName>kirjeldus</displayName>
+		</SimpleField>
+	</Schema>
+	<gx:CascadingStyle kml:id="__managed_style_18F54266FF41E99D8AA9_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB3klEQVQ4T62UzStEURjGnzMjsWCwoMwsFEXysZAmISWfW+woC8wokf+ApT/AYsZXigVhZ0GUfBQWUtgoCxtTFBflY2Hm9Z7hcs/cO+OKuzqd+5zffd7nPfcV+OdHxONl+akqAnQ4gBoiFEqdEDiPEHYdAit3QbFvddYETO+hAmcSZvlFdSLz/JHtcBi9j9PiwqhTgJk+KmUXmyzItpnEDYXRqE2JE13/BXT5KN8J7EAg1yZMl129CHhfAuIqGou+y5mt8brZCLsNqOiLa2B8A5jbM31ynTNt+QK6+qjB6QBL1UcCQxowsQV4soDOz1Q9g+YawhE0PkyKzahDzi7A2fmtgNKVd+TjzdIQUF8MNI0BR5eqmpsU1CZE/wfQT6e8KEkErMgDFtlZSjK7tXBIwJkWFKW6w3t26LICxu4tHAADs+aS2eEDO8z4EahnKBGt5Vx+PjA8b26MCrRRsgQONgGjbcDqMdAdjMkwpuS4TTE67OIuF+TEdfjdlETXxuhDewLWT60zVK6NPGR1sc3Rx91RL7aUpfaTO5VwyEv3L0AAIfT6hsrnGRGS59Th0Etlwhn9Y/4+HHRXaT4qSgJkk+oSObU1voyA6IAltPMwrVUGLLDHQ3fZ9oD9VX4W4ncWhckVEwIlswAAAABJRU5ErkJggg==</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_18F54266FF41E99D8AA9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18F54266FF41E99D8AA9_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_18F54266FF41E99D8AA9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_03318E19AD41E99D8AA8_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB2klEQVQ4T61Uvy9DURg9t7WIH1USAyNCRG1CoyIRwmJiMBADWiIRm/gjJBKD1q9IGCTYRAiD0gST+BWRdNRGDIqIGrSf77W51dfeNk9408275557zvm++wn88ycy8RW7yB4Fek2AgwjVGk4I3EcJJyaB7WePOFWdTSMsHKJKcw5WeaM5m3i+xBuJYPhtWfiTcTpCq5NsrOKQAaUGk3iiCDpCS+JK4hOEFidVmIFjCJQZJJOwQFigMewWgVgs8i9ntsfrThWZfwaw5gGT68CaT3ndPmfalSC0jFC72YQDFXTAAcz2x3d2LoBBj1p/JIqO10VxGFPI2bk5O5cKujkB2KsA/yNQkg/YptWEXCRPaEGMxglddM2Lukx2H56BW06orwkYmAd2L9ORBNyEPMImFb6wQksqTNpdOgK8d5zfGLBxBoyvKggJr6ywKCuhZretFtAINZVT3UDoXW2bLScRZrAsq5umXGE71XJaUaTdZIuqf/IyXVFUbSPtpvbew5zatq5ttFuyNbaBl6NvbO1A7iiV5xLOeVlugOAHQgh+fqHhY0UEEy9F7lqHqV6YYy/m78NBkhY4qSYH0IrUmk2pofGVTBAbsIQeHqYtugEL+HjobhkesL/KTwH+Bjv5xRUrargwAAAAAElFTkSuQmCC</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_026DDAE79141E99D8AA9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_026DDAE79141E99D8AA9_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_026DDAE79141E99D8AA9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_03318E19AD41E99D8AA8_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB2klEQVQ4T61Uvy9DURg9t7WIH1USAyNCRG1CoyIRwmJiMBADWiIRm/gjJBKD1q9IGCTYRAiD0gST+BWRdNRGDIqIGrSf77W51dfeNk9408275557zvm++wn88ycy8RW7yB4Fek2AgwjVGk4I3EcJJyaB7WePOFWdTSMsHKJKcw5WeaM5m3i+xBuJYPhtWfiTcTpCq5NsrOKQAaUGk3iiCDpCS+JK4hOEFidVmIFjCJQZJJOwQFigMewWgVgs8i9ntsfrThWZfwaw5gGT68CaT3ndPmfalSC0jFC72YQDFXTAAcz2x3d2LoBBj1p/JIqO10VxGFPI2bk5O5cKujkB2KsA/yNQkg/YptWEXCRPaEGMxglddM2Lukx2H56BW06orwkYmAd2L9ORBNyEPMImFb6wQksqTNpdOgK8d5zfGLBxBoyvKggJr6ywKCuhZretFtAINZVT3UDoXW2bLScRZrAsq5umXGE71XJaUaTdZIuqf/IyXVFUbSPtpvbew5zatq5ttFuyNbaBl6NvbO1A7iiV5xLOeVlugOAHQgh+fqHhY0UEEy9F7lqHqV6YYy/m78NBkhY4qSYH0IrUmk2pofGVTBAbsIQeHqYtugEL+HjobhkesL/KTwH+Bjv5xRUrargwAAAAAElFTkSuQmCC</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18F54266FF41E99D8AA9_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB3klEQVQ4T62UzStEURjGnzMjsWCwoMwsFEXysZAmISWfW+woC8wokf+ApT/AYsZXigVhZ0GUfBQWUtgoCxtTFBflY2Hm9Z7hcs/cO+OKuzqd+5zffd7nPfcV+OdHxONl+akqAnQ4gBoiFEqdEDiPEHYdAit3QbFvddYETO+hAmcSZvlFdSLz/JHtcBi9j9PiwqhTgJk+KmUXmyzItpnEDYXRqE2JE13/BXT5KN8J7EAg1yZMl129CHhfAuIqGou+y5mt8brZCLsNqOiLa2B8A5jbM31ynTNt+QK6+qjB6QBL1UcCQxowsQV4soDOz1Q9g+YawhE0PkyKzahDzi7A2fmtgNKVd+TjzdIQUF8MNI0BR5eqmpsU1CZE/wfQT6e8KEkErMgDFtlZSjK7tXBIwJkWFKW6w3t26LICxu4tHAADs+aS2eEDO8z4EahnKBGt5Vx+PjA8b26MCrRRsgQONgGjbcDqMdAdjMkwpuS4TTE67OIuF+TEdfjdlETXxuhDewLWT60zVK6NPGR1sc3Rx91RL7aUpfaTO5VwyEv3L0AAIfT6hsrnGRGS59Th0Etlwhn9Y/4+HHRXaT4qSgJkk+oSObU1voyA6IAltPMwrVUGLLDHQ3fZ9oD9VX4W4ncWhckVEwIlswAAAABJRU5ErkJggg==</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B1721DA8041E99D8AAB_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_03318E19AD41E99D8AA8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_03318E19AD41E99D8AA8_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_03318E19AD41E99D8AA8_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2BBB1ABB6441E99D8AA9_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff6712</color>
+				<width>7.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_026DDAE79141E99D8AA9_highlight">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_2BBB1ABB6441E99D8AA9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2BBB1ABB6441E99D8AA9_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BBB1ABB6441E99D8AA9_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2BBB1ABB6441E99D8AA9_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffff6712</color>
+				<width>5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0B1721DA8041E99D8AAB_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B1721DA8041E99D8AAB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0B1721DA8041E99D8AAB_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0B1721DA8041E99D8AAB_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_026DDAE79141E99D8AA9_normal">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Folder id="793a536e_0">
+		<name>Pealkirjata kiht</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_026DDAE79141E99D8AA9</styleUrl>
+		<Placemark id="793a536e_5EC742CA94A97C56">
+			<name>Tallinna Tööstushariduskeskus</name>
+			<description><![CDATA[<div><b>nimi</b>: Tallinna Tööstushariduskeskus</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<gx:fid>0x469294f1bd8cb15b:0xc372ff05bb27e9f4</gx:fid>
+			<styleUrl>#__managed_style_0B1721DA8041E99D8AAB</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Tallinna Tööstushariduskeskus</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.7054502,59.41155240000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="793a536e_5EC743367CD86E6E">
+			<name>Linnamäe tee</name>
+			<description><![CDATA[<div><b>nimi</b>: Linnamäe tee</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<gx:fid>0x4692ece80613a729:0xc418bf14da5bf5dd</gx:fid>
+			<styleUrl>#__managed_style_0B1721DA8041E99D8AAB</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Linnamäe tee</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.8640346,59.44844010000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="793a536e_1">
+		<name>Juhised lähtekohast Sõpruse pst 157b, 13417 Tallinn, Eesti sihtkohta Linnu tee, 13417 Tallinn, Eesti</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_026DDAE79141E99D8AA9</styleUrl>
+		<Placemark id="793a536e_5EC745EC212852C6">
+			<name>Juhised lähtekohast Sõpruse pst 157b, 13417 Tallinn, Eesti sihtkohta Linnu tee, 13417 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Juhised lähtekohast Sõpruse pst 157b, 13417 Tallinn, Eesti sihtkohta Linnu tee, 13417 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_2BBB1ABB6441E99D8AA9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Juhised lähtekohast Sõpruse pst 157b, 13417 Tallinn, Eesti sihtkohta Linnu tee, 13417 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					24.70619,59.41144,0 24.70633,59.41161000000001,0 24.70642,59.41172,0 24.70648,59.4118,0 24.70654,59.41186999999999,0 24.70659,59.41195,0 24.70663,59.41199,0 24.70673,59.41214000000001,0 24.70679,59.41222,0 24.70684,59.41229,0 24.70688,59.41235,0 24.70691,59.41239999999999,0 24.70695,59.41246,0 24.70702,59.41256000000001,0 24.70712,59.41269999999999,0 24.70723,59.41284,0 24.70726,59.41288,0 24.70728,59.41293,0 24.7073,59.41298,0 24.70751,59.41294,0 24.70775,59.41288,0 24.70809,59.41335,0 24.70829,59.41332,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="793a536e_5EC745EC21713072">
+			<name>Sõpruse pst 157b, 13417 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Sõpruse pst 157b, 13417 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_03318E19AD41E99D8AA8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Sõpruse pst 157b, 13417 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.7061867,59.4114425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="793a536e_5EC745EC21F33A03">
+			<name>Linnu tee, 13417 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Linnu tee, 13417 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_18F54266FF41E99D8AA9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Linnu tee, 13417 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.7082866,59.4133209,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="793a536e_2">
+		<name>Juhised lähtekohast Linnu tee, 13417 Tallinn, Eesti sihtkohta Taksopark, 10615 Tallinn, Eesti</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_026DDAE79141E99D8AA9</styleUrl>
+		<Placemark id="793a536e_5EC7463EF9FE125D">
+			<name>Juhised lähtekohast Linnu tee, 13417 Tallinn, Eesti sihtkohta Taksopark, 10615 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Juhised lähtekohast Linnu tee, 13417 Tallinn, Eesti sihtkohta Taksopark, 10615 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_2BBB1ABB6441E99D8AA9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Juhised lähtekohast Linnu tee, 13417 Tallinn, Eesti sihtkohta Taksopark, 10615 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					24.70815,59.41342000000001,0 24.70899,59.41464,0 24.7092,59.41489,0 24.70935,59.41511,0 24.71026,59.41638,0 24.71052,59.41678999999999,0 24.71094,59.41739,0 24.71137,59.41786,0 24.7119,59.41848,0 24.71193,59.41851,0 24.71214,59.41875,0 24.71259,59.41925999999999,0 24.71268,59.41936,0 24.71273,59.41942999999999,0 24.71279,59.4195,0 24.71301,59.41974,0 24.71306999999999,59.41981,0 24.71316,59.41991,0 24.71365,59.42048,0 24.71378,59.42063,0 24.71393,59.4208,0 24.71394,59.42081000000001,0 24.71401,59.42089,0 24.71414,59.42104,0 24.71438,59.42132,0 24.71448,59.42144,0 24.71486,59.42186,0 24.71527,59.42233,0 24.71567,59.42278999999999,0 24.71576,59.42289,0 24.71761,59.42502,0 24.71788,59.42531999999999,0 24.71798,59.42545,0 24.71821,59.42571,0 24.71836,59.42587,0 24.71856,59.42609000000001,0 24.71871,59.42625,0 24.71877,59.42631,0 24.71894,59.4265,0 24.71903,59.42658,0 24.71907,59.42662,0 24.7191,59.42664,0 24.71915,59.42668,0 24.7192,59.42670999999999,0 24.7193,59.42678,0 24.71932,59.42679,0 24.71942,59.42685,0 24.71961,59.42686,0 24.71976,59.42693000000001,0 24.72021,59.4271,0 24.72031,59.42714,0 24.72051,59.42722,0 24.72078,59.42733,0 24.72079,59.42734,0 24.72081,59.42734,0 24.72082,59.42734999999999,0 24.72083,59.42734999999999,0 24.72085,59.42736,0 24.72189,59.42756,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="793a536e_5EC7463EF9656C47">
+			<name>Linnu tee, 13417 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Linnu tee, 13417 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_03318E19AD41E99D8AA8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Linnu tee, 13417 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.7081469,59.41342409999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="793a536e_5EC7463EF9F5AD02">
+			<name>Taksopark, 10615 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Taksopark, 10615 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_18F54266FF41E99D8AA9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Taksopark, 10615 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.7218889,59.4275577,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="793a536e_3">
+		<name>Juhised lähtekohast Taksopark, 10615 Tallinn, Eesti sihtkohta Linnamäe tee, 13912 Tallinn, Eesti</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_026DDAE79141E99D8AA9</styleUrl>
+		<Placemark id="793a536e_5EC746B935D18795">
+			<name>Juhised lähtekohast Taksopark, 10615 Tallinn, Eesti sihtkohta Linnamäe tee, 13912 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Juhised lähtekohast Taksopark, 10615 Tallinn, Eesti sihtkohta Linnamäe tee, 13912 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_2BBB1ABB6441E99D8AA9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Juhised lähtekohast Taksopark, 10615 Tallinn, Eesti sihtkohta Linnamäe tee, 13912 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<LineString>
+				<coordinates>
+					24.72202,59.42758,0 24.72319999999999,59.42781,0 24.7235,59.42788,0 24.72476,59.42814,0 24.72498,59.42818,0 24.72532,59.42823,0 24.72542,59.42824,0 24.72548,59.42824,0 24.72561,59.42823,0 24.72633,59.42819,0 24.72651,59.42819,0 24.72664,59.4282,0 24.72726,59.42823,0 24.72745,59.42825,0 24.72764,59.42829,0 24.72816,59.42839,0 24.72851,59.42845,0 24.729,59.42853,0 24.72943,59.42859,0 24.72965,59.42862000000001,0 24.72991,59.42856999999999,0 24.73015,59.42853,0 24.73049,59.42848999999999,0 24.7309,59.42842,0 24.73166,59.42831,0 24.73191,59.42828,0 24.73213000000001,59.42823,0 24.73257,59.42817,0 24.73275,59.42816,0 24.73294,59.42813,0 24.73312,59.4281,0 24.73318,59.42809,0 24.73322,59.42808,0 24.73328,59.42807000000001,0 24.73335,59.42807000000001,0 24.73471,59.42787,0 24.73563,59.42774,0 24.73596,59.4277,0 24.73603,59.42769,0 24.73634,59.42764,0 24.7378,59.42741,0 24.73867,59.42731999999999,0 24.73975,59.42726,0 24.74031,59.42723999999999,0 24.74051,59.4272,0 24.7407,59.4272,0 24.7411,59.4272,0 24.74124,59.4272,0 24.74213,59.42719,0 24.74241,59.4272,0 24.74268,59.42719,0 24.74298,59.42719,0 24.74302,59.42717999999999,0 24.74326,59.4272,0 24.74418,59.42733,0 24.74467,59.42741,0 24.74505,59.42746,0 24.74547,59.42753,0 24.7457,59.42757,0 24.74618,59.42763,0 24.74716,59.4278,0 24.74786,59.42792,0 24.74794,59.42793,0 24.74827,59.42797,0 24.74855,59.42801000000001,0 24.74913,59.4281,0 24.7494,59.42814,0 24.75049,59.42833,0 24.75176,59.42853,0 24.75309,59.42873999999999,0 24.75398,59.4289,0 24.754,59.4289,0 24.75412,59.42892,0 24.75457,59.429,0 24.75505,59.42908,0 24.75531,59.42912,0 24.75538,59.42913,0 24.75553,59.42916,0 24.75564,59.42918,0 24.75575,59.42915000000001,0 24.75576,59.42915000000001,0 24.75588,59.42917,0 24.75598,59.42919,0 24.75609,59.4292,0 24.75619,59.42922,0 24.75632,59.42923999999999,0 24.75643,59.42926,0 24.75648,59.42927,0 24.75653000000001,59.42927,0 24.75657,59.42928,0 24.75662,59.42928999999999,0 24.75665,59.42928999999999,0 24.75667,59.42928999999999,0 24.75671000000001,59.42928999999999,0 24.75674,59.4293,0 24.75677,59.4293,0 24.7568,59.42928999999999,0 24.75686,59.42928999999999,0 24.75749,59.4292,0 24.75774,59.42915000000001,0 24.75804,59.42911,0 24.75812,59.42909999999999,0 24.75822,59.42909,0 24.75826,59.42908,0 24.75839,59.42909,0 24.75847,59.42907,0 24.75879,59.42902,0 24.75911,59.42897,0 24.75952,59.4289,0 24.75964,59.42888,0 24.75974,59.42886,0 24.75983,59.42883,0 24.75998,59.42879000000001,0 24.76015,59.42873,0 24.7603,59.42868000000001,0 24.76069,59.42852,0 24.76124,59.42829,0 24.7618,59.42811,0 24.76205,59.42804,0 24.76215,59.42803,0 24.76223,59.42801999999999,0 24.76236,59.428,0 24.76306,59.42799,0 24.76321,59.42798,0 24.76385,59.42797,0 24.76447,59.42795999999999,0 24.76474,59.42795,0 24.76504,59.42794,0 24.76514,59.42794,0 24.76529,59.42793,0 24.7654,59.42792,0 24.76554,59.42790000000001,0 24.76571,59.42788,0 24.76585,59.42786,0 24.76594,59.42784999999999,0 24.76602,59.42784000000001,0 24.76649,59.42778,0 24.76683,59.42773,0 24.76719,59.42769,0 24.76782,59.42759000000001,0 24.76816000000001,59.42753,0 24.76819,59.42753,0 24.76822,59.42752,0 24.7685,59.42748000000001,0 24.76875,59.42744,0 24.76901,59.42740000000001,0 24.76929,59.42736,0 24.76952,59.42733,0 24.76999,59.42725,0 24.77028,59.42721,0 24.77081,59.42712999999999,0 24.77093,59.42711,0 24.77094,59.42711,0 24.77136,59.42705,0 24.77162,59.42699,0 24.77173000000001,59.42704000000001,0 24.77202,59.42712000000001,0 24.77267,59.42731,0 24.77406999999999,59.42772,0 24.77435,59.42773,0 24.77456,59.42781,0 24.77472,59.42786,0 24.77489,59.42792,0 24.77509999999999,59.42799,0 24.77531,59.42808,0 24.77553,59.42818,0 24.77562,59.42822,0 24.77573,59.42827,0 24.7758,59.42831,0 24.77583,59.42834,0 24.77584999999999,59.42836,0 24.77587,59.42837999999999,0 24.77591,59.42848,0 24.77596,59.42854000000001,0 24.77597,59.4286,0 24.776,59.42864,0 24.77602,59.42868000000001,0 24.77609,59.42878,0 24.77618,59.42883,0 24.77624,59.42888,0 24.77659999999999,59.42914,0 24.77683,59.42931,0 24.77739,59.4297,0 24.77815,59.43025,0 24.77821,59.43033,0 24.77824,59.43034,0 24.77828,59.43034,0 24.77831,59.43034,0 24.77841,59.43034,0 24.77847,59.43034,0 24.77866,59.43031,0 24.77901,59.43027,0 24.77933,59.43023,0 24.77945,59.43021,0 24.77962,59.43022,0 24.77977,59.43023999999999,0 24.77989,59.43026,0 24.78005,59.43029000000001,0 24.7803,59.43034,0 24.78077,59.43045,0 24.78106,59.43053,0 24.78126,59.43059,0 24.78159,59.4307,0 24.78187,59.43081,0 24.7826,59.43107000000001,0 24.78385,59.43153,0 24.78397,59.43156999999999,0 24.78399,59.43158,0 24.78408,59.43161,0 24.78428,59.43168000000001,0 24.78451,59.43175,0 24.78463,59.43179000000001,0 24.78479,59.43183,0 24.78508,59.4319,0 24.78534,59.43195,0 24.78571000000001,59.43201,0 24.78591,59.43206,0 24.78608,59.43211,0 24.7863,59.43217,0 24.78658,59.43227,0 24.78671,59.43231,0 24.78706,59.43244,0 24.78753,59.43261,0 24.78774,59.43269,0 24.78853000000001,59.43299,0 24.78912,59.43321,0 24.79087,59.43383,0 24.79126,59.43397,0 24.79232,59.43432000000001,0 24.79268,59.43444,0 24.79299,59.43451999999999,0 24.79326,59.43458,0 24.79348,59.43464,0 24.79372,59.43469,0 24.79387,59.43472,0 24.79404,59.43474000000001,0 24.79425,59.43478,0 24.79449,59.43481,0 24.79479,59.43484,0 24.79501,59.43487,0 24.79527,59.43489,0 24.79548,59.43491,0 24.79585,59.43493000000001,0 24.7962,59.43495,0 24.79654,59.43496,0 24.79719,59.43496,0 24.79728,59.43496,0 24.79782,59.43493000000001,0 24.79842,59.43489,0 24.79877,59.43487,0 24.799,59.43485,0 24.79923,59.43483,0 24.79989,59.43478,0 24.80053,59.43474000000001,0 24.80096,59.43471,0 24.80113,59.4347,0 24.80115,59.4347,0 24.80157,59.43469,0 24.80192,59.43469,0 24.80219,59.4347,0 24.80245,59.43471,0 24.80284,59.43472,0 24.80289,59.43472,0 24.80314,59.43473,0 24.80364,59.43477,0 24.80402,59.43481,0 24.80438,59.43485,0 24.80439,59.43485,0 24.80476000000001,59.43491,0 24.80535,59.435,0 24.80634,59.43523,0 24.8067,59.43532,0 24.80753,59.43557,0 24.80819,59.43575,0 24.81066999999999,59.43646,0 24.81244999999999,59.43694,0 24.8138,59.43732000000001,0 24.81455,59.43753,0 24.81612,59.43798,0 24.81765,59.43840999999999,0 24.81808,59.43853,0 24.81859,59.43865999999999,0 24.81919,59.43881,0 24.81965,59.43890999999999,0 24.82015,59.439,0 24.82057,59.43906,0 24.82087,59.43909,0 24.82136,59.43914,0 24.82177,59.43916,0 24.8222,59.43918,0 24.82309,59.43921,0 24.82403,59.43925,0 24.82514,59.4393,0 24.82628,59.43935,0 24.82673,59.43937,0 24.82754,59.4394,0 24.8277,59.43941,0 24.82809,59.43942,0 24.82863,59.43943999999999,0 24.82911,59.43947,0 24.82958,59.43949000000001,0 24.82999,59.4395,0 24.83044,59.43951999999999,0 24.83293,59.43962999999999,0 24.83402,59.43967,0 24.83571,59.43975,0 24.83703,59.43979,0 24.83776,59.43986,0 24.8384,59.4399,0 24.84179,59.44006,0 24.84404,59.44010000000001,0 24.84425,59.44011,0 24.84456,59.44011,0 24.84476,59.44012,0 24.84541,59.44015,0 24.84669,59.44021999999999,0 24.84701,59.44023,0 24.84738,59.44024,0 24.85006,59.44029999999999,0 24.85104,59.44031,0 24.85113,59.44031,0 24.8517,59.44031,0 24.85193,59.44032,0 24.85297,59.44032,0 24.85353,59.44034,0 24.85474,59.44042,0 24.85561,59.44051999999999,0 24.8565,59.44062,0 24.85707,59.44068999999999,0 24.8573,59.44072,0 24.85766,59.44076999999999,0 24.85805,59.44082000000001,0 24.86002,59.44112999999999,0 24.86122,59.44131,0 24.86243,59.4415,0 24.86342,59.44154000000001,0 24.86368,59.44156,0 24.8647,59.44165999999999,0 24.86505,59.44171000000001,0 24.86619,59.44187,0 24.8667,59.44193,0 24.86687,59.44195,0 24.86714,59.44199,0 24.86711,59.44203,0 24.86709,59.44207,0 24.86703,59.44214,0 24.86699,59.44219,0 24.86699,59.4422,0 24.86696,59.44224,0 24.86692,59.44229,0 24.86682,59.44241,0 24.86675,59.44251,0 24.86668,59.4426,0 24.86661,59.44268000000001,0 24.86654,59.44277,0 24.86643,59.44289,0 24.86637,59.44297,0 24.86628,59.44307,0 24.86626,59.44310000000001,0 24.86615,59.44324,0 24.86608,59.44332,0 24.86596,59.44349,0 24.86589,59.44357,0 24.86542,59.44417,0 24.86518,59.44447,0 24.86511,59.44454999999999,0 24.8651,59.44457,0 24.86494,59.44476,0 24.8649,59.44484,0 24.86487,59.44488,0 24.86462,59.44521999999999,0 24.86449,59.44538000000001,0 24.86383,59.44625,0 24.86372,59.4464,0 24.86298,59.44736,0 24.86283,59.44756,0 24.86237,59.44817,0 24.86259,59.4482,0 24.86309,59.44834,0 24.86339,59.44841,0 24.86374,59.44849,0 24.86398000000001,59.44854,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark id="793a536e_5EC746B935799B01">
+			<name>Taksopark, 10615 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Taksopark, 10615 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_03318E19AD41E99D8AA8</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Taksopark, 10615 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.7220222,59.4275838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="793a536e_5EC746B936A70115">
+			<name>Linnamäe tee, 13912 Tallinn, Eesti</name>
+			<description><![CDATA[<div><b>nimi</b>: Linnamäe tee, 13912 Tallinn, Eesti</div><div><b>kirjeldus</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_18F54266FF41E99D8AA9</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmltaQ==">Linnamäe tee, 13912 Tallinn, Eesti</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>24.8639769,59.4485431,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
