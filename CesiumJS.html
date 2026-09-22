@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <title>CesiumJS - KML Kaardiprojekt</title>
+  <!-- CesiumJS -->
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-brand">KML Kaardi</a>
+
+  <div class="nav-links">
+    <a href="index.html">Avaleht</a>
+    <a href="leaflet.html">LeafletJS Kaart</a>
+    <a href="openlayers.html">OpenLayers Kaart</a>
+    <a href="comparison.html">Võrdlus</a>
+    <a href="CesiumJS.html" class="active">CesiumJS</a>
+  </div>
+</nav>
+
+<div class="content">
+  <h2>CesiumJS</h2>
+  <div id="cesiumContainer" style="width: 100%; height: 500px;"></div>
+</div>
+
+<script>
+  Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IkpMSHlTc2lFT0l5aTA2UmsiLCJqdGkiOiJiZWFlZGU2ZC03ZGU3LTRkNzAtOGNjMC01MzAyZDdhYjZjMzgiLCJpZCI6NTA0MzU2LCJpc3MiOiJodHRwczovL2FwaS5jZXNpdW0uY29tIiwiYXVkIjoidW5kZWZpbmVkX2RlZmF1bHQiLCJpYXQiOjE3OTAwNjM0OTl9.fekv6CS-sO8dl53YvM-zGpCvfD-zxARLjc7dDZJ_Vu4';
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const v = new Cesium.Viewer('cesiumContainer', {
+      animation: false,
+      timeline: false
+    });
+
+    Cesium.KmlDataSource.load('./kooli-koju.kml', {
+      camera: v.scene.camera,
+      canvas: v.scene.canvas
+    })
+            .then(ds => {
+              v.dataSources.add(ds);
+              v.zoomTo(ds);
+            })
+            .catch(err => console.error("Ошибка загрузки KML:", err));
+  });
+</script>
+
+
+<footer>
+  <p>Projekti autor: <strong>Nikita Nikiforov + Gemini</strong></p>
+</footer>
+
+</body>
+</html>

@@ -190,3 +190,10 @@ footer {
 footer strong {
     color: #ffffff;
 }
+
+#cesiumContainer {
+    width: 100%;
+    height: 600px;
+    margin-top: 15px;
+    background-color: #000;
+}
