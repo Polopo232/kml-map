@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="et"><head>
+  <meta charset="UTF-8">
+  <title>CesiumJS - KML Kaardiprojekt</title>
+  //CesiumJS
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-brand">KML Kaardi</a>
+
+  <div class="nav-links">
+    <a href="index.html">Avaleht</a>
+    <a href="leaflet.html">LeafletJS Kaart</a>
+    <a href="openlayers.html">OpenLayers Kaart</a>
+    <a href="comparison.html">Võrdlus</a>
+    <a href="CesiumJS.html" class="active">CesiumJS</a>
+  </div>
+</nav>
+
+<div id="tab3" class="tab-content">
+  <h2>3D Визуализация KML через CesiumJS</h2>
+  <div id="cesiumContainer"></div>
+</div>
+
+<script>
+  let v;
+  function openTab(id) {
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    document.getElementById(id)?.classList.add('active');
+
+    if (id === 'tab3' && !v) {
+      v = new Cesium.Viewer('cesiumContainer', { animation: false, timeline: false });
+      Cesium.KmlDataSource.load('./kooli-koju.kml', { camera: v.scene.camera, canvas: v.scene.canvas })
+              .then(ds => { v.dataSources.add(ds); v.zoomTo(ds); });
+    }
+  }
+</script>
+
+</body>
+</html>
