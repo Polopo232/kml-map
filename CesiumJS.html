@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="et"><head>
+<html lang="et">
+<head>
   <meta charset="UTF-8">
   <title>CesiumJS - KML Kaardiprojekt</title>
-  //CesiumJS
+  <!-- CesiumJS -->
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.115/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
 
@@ -21,23 +22,32 @@
   </div>
 </nav>
 
-<div id="tab3" class="tab-content">
-  <h2>3D Визуализация KML через CesiumJS</h2>
-  <div id="cesiumContainer"></div>
+<div class="content">
+  <h2>CesiumJS</h2>
+  <div id="cesiumContainer" style="width: 100%; height: 500px;"></div>
 </div>
 
 <script>
-  let v;
-  function openTab(id) {
-    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-    document.getElementById(id)?.classList.add('active');
+  window.addEventListener('DOMContentLoaded', () => {
+    const v = new Cesium.Viewer('cesiumContainer', {
+      animation: false,
+      timeline: false,
+      imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+        url: 'https://a.tile.openstreetmap.org/'
+      })
+    });
 
-    if (id === 'tab3' && !v) {
-      v = new Cesium.Viewer('cesiumContainer', { animation: false, timeline: false });
-      Cesium.KmlDataSource.load('./kooli-koju.kml', { camera: v.scene.camera, canvas: v.scene.canvas })
-              .then(ds => { v.dataSources.add(ds); v.zoomTo(ds); });
-    }
-  }
+    // Загружаем KML
+    Cesium.KmlDataSource.load('./kooli-koju.kml', {
+      camera: v.scene.camera,
+      canvas: v.scene.canvas
+    })
+            .then(ds => {
+              v.dataSources.add(ds);
+              v.zoomTo(ds);
+            })
+            .catch(err => console.error("KML laadimise viga:", err));
+  });
 </script>
 
 </body>
